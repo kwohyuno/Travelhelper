@@ -1,0 +1,25 @@
+.mypage-header{
+    height:5rem;
+    background-color:green;
+}
+
+.mypage-body{
+    padding-left:1rem;
+}
+
+.mypage-header-backbtn{
+    margin-top:1.7rem;
+    margin-bottom:0.5rem;
+    margin-left:0.5rem;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    width:7rem;
+    height:1.7rem;
+    font-size:1rem;
+}
+
+.mypage-body-lastlogin{
+    padding-top:1rem;
+    color:green;
+    font-weight: bold;
+}

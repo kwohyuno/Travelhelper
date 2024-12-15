@@ -1,0 +1,165 @@
+.hotels-header{
+    font-style:italic;
+    font-weight:bold;
+    color:yellow;
+    font-size: 18px;
+}
+
+.hotels-header-logoutbtn{
+    margin-top:1.7rem;
+    margin-bottom:0.5rem;
+    margin-left:0.5rem;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    width:7rem;
+    height:1.7rem;
+    font-size:1rem;
+}
+
+.hotels-header-mypagebtn{
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    margin-left:0.5rem;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    width:7rem;
+    height:1.7rem;
+    font-size:1rem;
+}
+
+.hotels-search-input{
+    height:1.5rem;
+    width:15rem;
+}
+
+.hotels-search-button{
+    padding-left:0.5rem;
+    margin-left:0.5rem;
+    height:1.7rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.hotels-body-map{
+    padding-left:0.5rem;
+}
+
+.hotels-body-list{
+    position:relative;
+    width: 50rem;
+    height:5.5rem;
+    border: 1px solid black;
+    top:0.5rem;
+    left:0.5rem;
+    margin-bottom:0.5rem;
+}
+
+.hotels-body-list:hover{
+    color: green;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.hotels-body-list-hotelname{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.hotels-search{
+    position:relative;
+    height:1.5rem;
+    left:0.5rem;
+    top:0.5rem;
+    margin-bottom:1rem;
+}
+
+.hotels-modal{
+    position:fixed;
+    top:2rem;
+    left:1rem;
+    width:60%;
+    height:50rem;
+    background-color: #dee4d8;
+    color: #393838;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    z-index: 1000;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-left:2rem;
+    margin-top:1rem;
+    border-radius:20px;
+}
+
+.hotels.modal-content{
+    top:5rem;
+    margin-top:15rem;
+    padding-top:15rem;
+    background: #040404;
+    padding:20px;
+    border-radius:10px;
+    width:100%;
+    max-height: 80%;
+    width: 80%;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hotels-modal-content-bookmarkbtn{
+    margin-bottom:1rem;
+}
+
+.hotels-modal-content-bookingbtn{
+    margin-left: 0.2rem;
+}
+
+.hotels-modal-content-reviewsubmitbtn{
+    margin-left: 0.2rem;
+}
+
+.hotels-modal-review-item-comments{
+    margin-top:0.7rem;
+}
+
+.hotels-modal-review-item-comments-submitbtn{
+    margin-left: 0.2rem;
+    height: 1.5rem;
+    width: 6rem;
+}
+
+.hotels-modal-review-items-comments-input{
+    width:15rem;
+    height:1.3rem;
+}
+
+.hotels-modal-close{
+    position:relative;
+    top:10px;
+    right:10px;
+    font-size:20px;
+    cursor:pointer;
+    color: #ec0404;
+    z-index: 1001;
+}
+
+.hotels-modal-review-item{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #666;
+
+ }
+
+.hotels-header{
+    height:5rem;
+    background-color:green;
+}
+
+.hotels-modal-pagination{
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    margin-left:2rem;
+}
+
+.hotels-modal-pagination-btn{
+    margin-right:0.3rem;
+}
