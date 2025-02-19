@@ -1,5 +1,6 @@
 <h2>Intro</h2>
 <li>Travelhelper is a website that helps customers search and book hotels</li>
+<li>Project timeline : Nov 2024 - Dec 2024 </li>
 <br>
 
 <h2>Feature</h2>
